@@ -1,0 +1,210 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer_get_touch_outer {
+  margin-top: 80px;
+}
+
+.container {
+  width: 95%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.grid-70-30 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 30px;
+}
+
+.get_form_inner {
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.get_form_inner_text h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.get_form_inner_text p {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.grid-50-50 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-full {
+  margin-top: 20px;
+}
+
+/* ---------- Ant Design Inputs ---------- */
+
+.ant-input,
+.ant-input-affix-wrapper {
+  /* height: 45px !important; */
+  border-radius: 5px !important;
+}
+
+.ant-input {
+  padding-left: 15px !important;
+}
+
+.ant-input-textarea textarea {
+  min-height: 130px !important;
+  padding: 15px !important;
+  border-radius: 5px !important;
+}
+
+/* Form Items */
+
+.ant-form-item {
+  margin-bottom: 20px;
+}
+
+/* Submit Button */
+
+.contact_form_submit,
+.ant-btn.contact_form_submit {
+  height: 45px;
+  padding: 0 35px;
+  border-radius: 5px;
+  background: #103e65 !important;
+  border-color: #103e65 !important;
+  color: #fff !important;
+}
+
+.contact_form_submit:hover,
+.ant-btn.contact_form_submit:hover {
+  background: #f85508 !important;
+  border-color: #f85508 !important;
+}
+
+/* Right Side */
+
+.get_say_form {
+  background: #103e65;
+  padding: 40px 30px;
+  height: 100%;
+  position: relative;
+}
+
+.get_say_form h5 {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+
+.get_say_info_sec {
+  list-style: none;
+  padding: 0;
+}
+
+.get_say_info_sec li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.get_say_info_sec li span,
+.get_say_info_sec li a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.get_say_info_sec .anticon {
+  color: #fff;
+  font-size: 22px;
+}
+
+/* Social Icons */
+
+.get_say_social-icn {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.get_say_social-icn a {
+  color: #fff;
+  font-size: 24px;
+  transition: .3s;
+}
+
+.get_say_social-icn a:hover {
+  color: #f85508;
+}
+
+/* Google Map */
+
+.map_sec {
+  margin-top: 70px;
+}
+
+.map_bind iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+
+  .grid-70-30 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-50-50 {
+    grid-template-columns: 1fr;
+  }
+
+  .get_form_inner,
+  .get_say_form {
+    padding: 30px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .get_form_inner,
+  .get_say_form {
+    padding: 20px;
+  }
+
+  .get_form_inner_text h3,
+  .get_say_form h5 {
+    font-size: 22px;
+  }
+
+  .contact_form_submit {
+    width: 100%;
+  }
+
+}
+.ant-input{
+    height:42px;
+}
+
+.ant-input-textarea textarea{
+    min-height:120px;
+}
+
+.contact_form_submit{
+    margin-top:20px;
+}
+
+.ant-typography{
+    margin-bottom:0 !important;
+}

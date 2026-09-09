@@ -1,0 +1,57 @@
+.custom-quill .ql-toolbar.ql-snow {
+  background: #1677ff; /* Ant Design primary color */
+  border: none;
+  padding: 8px;
+  display: flex;
+  gap: 4px;
+}
+
+.custom-quill .ql-toolbar button {
+  color: white;
+}
+
+.custom-quill .ql-toolbar .ql-stroke {
+  stroke: white;
+}
+
+.custom-quill .ql-toolbar .ql-fill {
+  fill: white;
+}
+
+.custom-quill .ql-toolbar .ql-picker {
+  color: white;
+}
+
+.custom-quill .ql-container.ql-snow {
+  border: 1px solid #d9d9d9;
+  border-top: none;
+  min-height: 300px;
+  border-radius: 0 0 12px 12px;
+}
+
+.custom-quill .ql-editor {
+  padding: 16px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.custom-quill .ql-editor.ql-blank::before {
+  color: #888;
+}
+.ql-syntax {
+  background-color: #1e1e1e; /* dark background */
+  color: #f8f8f2; /* light text */
+  font-family: "Fira Code", monospace;
+  font-size: 14px;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+  white-space: pre;
+  display: block;
+}
+
+/* Editor css  */
+.ql-snow .ql-token-list,
+select.ql-ui {
+  display: none !important;
+}
